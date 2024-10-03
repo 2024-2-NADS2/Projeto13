@@ -53,7 +53,7 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 
 ## 📋 Licença/License
-(https://github.com/2024-2-NADS2/Projeto13/blob/main/README.md#educa%C3%A7%C3%A3o-de-qualidade-a-todos) by FECAP, Adriano XU, Budoya is licensed under  <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
+https://github.com/2024-2-NADS2/Projeto13/blob/main/README.md#educa%C3%A7%C3%A3o-de-qualidade-a-todos by FECAP, Adriano XU, Budoya is licensed under  <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 
 ## 🎓 Referências
