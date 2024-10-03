@@ -6,7 +6,7 @@
 
 # Educação de qualidade a todos
 
-## Adriano Xu, Budoya
+## Integrantes:Adriano Xu, Budoya
 
 ## Professores Orientadores: Aimar, Victor, Savino, Chico, Jose
 
