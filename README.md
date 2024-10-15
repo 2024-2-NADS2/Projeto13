@@ -11,7 +11,7 @@
 ## Professores Orientadores: Aimar, Victor, Savino, Chico, Jose
 
 ## Descrição
-https://github.com/user-attachments/assets/be8aca4c-6585-4891-b118-94578a16224c
+![Imagem do WhatsApp de 2024-10-15 à(s) 09 36 19_78eab9ab](https://github.com/user-attachments/assets/5f584ffd-7aa3-4f73-b7e4-33e9413dfd75)
 
 Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir seus conhecimentos no mercado financeiro de forma prática e personalizada. Com uma curadoria de cursos que se adequam ao nível de expertise do usuário, disponibilizamos vídeos educativos e personalizados para facilitar a compreensão. Além disso, oferecemos recomendações de sites e recursos externos que ajudam a aprimorar habilidades específicas, tornando o processo de aprendizado mais acessível e eficaz para todos os níveis de conhecimento.
 
