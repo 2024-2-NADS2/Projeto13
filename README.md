@@ -55,5 +55,3 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 
 ## 🎓 Referências
 
-Aqui estão as referências usadas no projeto.
-
