@@ -19,12 +19,12 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 
 -Raiz<br>
 |-->documentos<br>
-  &emsp;|Codigo ordenação de conteúdo
-  &emsp;|Figma
-  &emsp;|Modelagem de Software e arquitetura de sistemas
+  &emsp;|-->Codigo ordenação de conteúdo
+  &emsp;|-->Figma
+  &emsp;|-->Modelagem de Software e arquitetura de sistemas
 
 |-->imagens<br>
-  &emsp;|Ícone para o site
+  &emsp;|-->Ícone para o site
 |-->src<br>
   
 |readme.md<br>
