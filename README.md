@@ -18,7 +18,6 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 ## 🛠 Estrutura de pastas
 
 -Raiz<br>
-|<br>
 |-->documentos<br>
   &emsp;|Codigo ordenação de conteúdo
   &emsp;|Figma
@@ -27,13 +26,12 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 |-->imagens<br>
   &emsp;|Ícone para o site
 |-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
+  
 |readme.md<br>
 
 
 ## 🛠 Instalação
-
+  Qualquer navegador de internet
 
 ## 💻 Configuração para Desenvolvimento
 
