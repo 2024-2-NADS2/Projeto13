@@ -20,13 +20,12 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 -Raiz<br>
 |<br>
 |-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
+  &emsp;|Codigo ordenação de conteúdo
+  &emsp;|Figma
+  &emsp;|Modelagem de Software e arquitetura de sistemas
+
 |-->imagens<br>
+  &emsp;|Ícone para o site
 |-->src<br>
   &emsp;|-->Backend<br>
   &emsp;|-->Frontend<br>
