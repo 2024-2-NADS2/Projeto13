@@ -18,23 +18,20 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 ## 🛠 Estrutura de pastas
 
 -Raiz<br>
-|<br>
 |-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
+  &emsp;|-->Codigo ordenação de conteúdo<br>
+  &emsp;|-->Figma<br>
+  &emsp;|-->Modelagem de Software e arquitetura de sistemas<br>
+
 |-->imagens<br>
+  &emsp;|-->Ícone para o site<br>
 |-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
+  
 |readme.md<br>
 
 
 ## 🛠 Instalação
-
+  Qualquer navegador de internet
 
 ## 💻 Configuração para Desenvolvimento
 
