@@ -6,9 +6,9 @@
 
 # Educação de qualidade a todos
 
-## Integrantes:Adriano Xu, Budoya
+## Integrantes:Adriano Xu, Felipe Budoya
 
-## Professores Orientadores: Aimar, Victor, Savino, Chico, Jose
+## Professores Orientadores: Aimar Lopes, Victor Rosetti,Eduardo Savino, Chico Escobar, José Buesso
 
 ## Descrição
 ![Imagem do WhatsApp de 2024-10-15 à(s) 09 36 19_78eab9ab](https://github.com/user-attachments/assets/5f584ffd-7aa3-4f73-b7e4-33e9413dfd75)
@@ -26,6 +26,7 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 |-->imagens<br>
   &emsp;|-->Ícone para o site<br>
 |-->src<br>
+  &emsp;|-->
   
 |readme.md<br>
 
