@@ -47,7 +47,7 @@ src: Pasta que contém o código fonte.
 
 ## 🛠 Instalação
 
-###Pré-requisitos
+Pré-requisitos<br>
 
 1. **Node.js e npm**  
    
