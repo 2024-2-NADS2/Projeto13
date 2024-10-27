@@ -47,6 +47,12 @@ src: Pasta que contém o código fonte.
 
 ## 🛠 Instalação
 
+###Pré-requisitos
+
+1. **Node.js e npm**  
+   
+2. **SQLite**  
+   
 
 ## 💻 Configuração para Desenvolvimento
 
