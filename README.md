@@ -36,11 +36,9 @@ A pasta raiz contem dois arquivos que devem ser alterados:
 
 README.MD: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
-Há também 4 pastas que seguem da seguinte forma:
+Há também 3 pastas que seguem da seguinte forma:
 
 documentos: Toda a documentação estará nesta pasta.
-
-executáveis: Binários e executáveis do projeto devem estar nesta pasta.
 
 imagens: Imagens do sistema
 
