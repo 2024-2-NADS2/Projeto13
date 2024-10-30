@@ -1,5 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import Header from './Header.jsx'
+import Footer from './Footer.jsx'
 
 export default function Cadastro() {
     const { register, handleSubmit, formState: { errors } } = useForm();
@@ -9,6 +11,10 @@ export default function Cadastro() {
     };
 
     return (
+        <div>
+
+        
+        <Header /> 
         <div className="body-container">
             <div className="login-container">
                 <h2 className="login-title">Cadastrar</h2>
@@ -56,6 +62,8 @@ export default function Cadastro() {
                     <button type="submit" className="submit-button">Cadastrar</button>
                 </form>
             </div>
+        </div>
+        <Footer />
         </div>
     );
 }

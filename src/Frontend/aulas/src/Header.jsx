@@ -1,19 +1,19 @@
-export default function Header(){
+import { Link } from 'react-router-dom';
+
+export default function Header() {
     return (
         <div>
-        <header>
-        <div className="logo">Nossa plataforma</div>
-        <nav>
-          <ul>
-            <li><a href="#">Cursos</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Ajuda</a></li>
-            <li><a href="#">Entrar</a></li>
-            <li><a href="#">Inscreva-se</a></li>
-          </ul>
-        </nav>
-      </header>
+            <header>
+                <div className="logo">Nossa plataforma</div>
+                <nav>
+                    <ul>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/sobre">Sobre</Link></li>
+                        <li><Link to="/login">Login</Link></li>
+                        <li><Link to="/videopage">Videos</Link></li>
+                    </ul>
+                </nav>
+            </header>
         </div>
-        
-    )
+    );
 }

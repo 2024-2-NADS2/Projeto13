@@ -2,10 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: 1E3A6E;
 }
 
 header {
-  background-color: #3c3c3d;
+  background-color: #1E3A6E;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -97,7 +98,7 @@ button {
 
 .recursos-adicionais,
 .comentarios {
-  background-color: #f9f9f9; 
+  background-color: #FF9800; 
   padding: 20px; 
   margin: 20px 0; 
   border-radius: 8px; 
@@ -159,7 +160,7 @@ button {
 
 /*login page e Cadastro*/
 
-/* Estilos gerais */
+
 .body-container {
   display: flex;
   justify-content: center;
@@ -239,16 +240,6 @@ button {
 /*login page e Cadastro*/
 
 /*Sobre*/
-/* Estilos Globais */
-.corpo {
-  background-color: #F5F5F5; /* Fundo em cinza claro */
-  color: #000000; /* Texto principal em preto */
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-/* Estrutura e Layout da Página */
 .container {
   display: flex;
   flex-direction: column;
@@ -257,7 +248,7 @@ button {
 }
 
 .secao {
-  background-color: #FFFFFF; /* Fundo das seções em branco */
+  background-color: #f5f5f5; 
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
@@ -266,6 +257,20 @@ button {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
+.secao:nth-of-type(1) {
+  background-color:#FF9800;
+}
+
+.secao:nth-of-type(2) {
+  
+  background-color: #1E3A6E;
+}
+
+
+.secao:nth-of-type(3) {
+  background-color: #FF9800;
+}
 
 .titulo {
   color: #1E3A6E; 
@@ -297,7 +302,7 @@ button {
 
 
 .campo-atencao {
-  background-color: #FF9800; 
+  background-color: #4CAF50; 
   padding: 10px;
   border-radius: 5px;
   color: #FFFFFF; 
@@ -331,8 +336,48 @@ button {
 
 /*Sobre*/
 
+/*Videos*/
+
+
+.conteudo {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: #f9f9f9;
+}
+
+.video {
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.video img {
+  width: 100%;
+}
+
+.detalhes-video {
+  padding: 10px;
+}
+
+.titulo-video {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.canal {
+  font-size: 12px;
+  color: #777;
+}
+
+/*Videos*/
 footer {
-  background-color: #3c3c3d;
+  background-color:#1E3A6E;
   color: white;
   text-align: center;
   padding: 10px 0;

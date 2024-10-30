@@ -1,5 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import Header from './Header.jsx'
+import Footer from './Footer.jsx'
 
 export default function Login() {
     const { register, handleSubmit, formState: { errors } } = useForm();
@@ -9,6 +11,8 @@ export default function Login() {
     };
 
     return (
+        <div>
+        <Header />
         <div className="body-container">
             <div className="login-container">
                 <h2 className="login-title">Login</h2>
@@ -46,6 +50,8 @@ export default function Login() {
                     <button type="submit" className="submit-button">Entrar</button>
                 </form>
             </div>
+        </div>
+        <Footer />
         </div>
     );
 }

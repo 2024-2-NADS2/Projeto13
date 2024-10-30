@@ -7,8 +7,8 @@ export default function Comentarios(){
           <button class="publciar">publicar</button>
         </form>
         <div className="lista-comentarios">
-          <p><strong>João:</strong> Adorei os cursos!</p>
-          <p><strong>Maria:</strong> Muito bem explicado.</p>
+          <p><strong>EXEMPLO:</strong> Adorei os cursos!</p>
+          <p><strong>EXEMPLO2:</strong> Muito bem explicado.</p>
         </div>
       </section>
     )
