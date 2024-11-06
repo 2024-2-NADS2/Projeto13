@@ -8,7 +8,6 @@
 
 ## Integrantes:<a href="https://www.">Adriano Xu</a>, <a href="https://www.">Felipe Budoya</a>
 
-## Professores Orientadores: Aimar Lopes, Victor Rosetti,Eduardo Savino, Chico Escobar, José Buesso
 ## Professores Orientadores: [Aimar Lopes](https://www.linkedin.com/in/aimarlopes/?locale=pt_BR),[ Victor Rosetti](https://www.linkedin.com/in/victorbarq/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=br),[Eduardo Savino](https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/), [Chico Escobar](https://www.linkedin.com/in/francisco-escobar/),[ José Buesso](https://www.linkedin.com/in/jbuesso/?original_referer=https%3A%2F%2Fgithub%2Ecom%2F2024-2-NADS2%2FProjeto12%3Ftab%3Dreadme-ov-file&originalSubdomain=br)
 
 ## Descrição
