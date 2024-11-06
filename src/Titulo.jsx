@@ -8,7 +8,7 @@ export default function Titulo() {
                 experiente querendo aprimorar suas estratégias,
                 aqui você encontrará tudo o que precisa.
             </p>
-            <a href="#" className="btn">Entrar!!!</a>
+            <a href="./Cadastro" className="btn">Entrar!!!</a>
         </section>
     );
 }
