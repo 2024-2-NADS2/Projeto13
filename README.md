@@ -22,7 +22,6 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 
 ## 🛠 Instalação|<br>
 |-->documentos<br>
-  &emsp;|-->antigos<br>
   &emsp;|Documentação.docx<br>
 |-->executáveis<br>
   &emsp;|-->windows<br>
@@ -38,11 +37,9 @@ A pasta raiz contem dois arquivos que devem ser alterados:
 
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
-Há também 4 pastas que seguem da seguinte forma:
+Há também 3 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
 
 <b>imagens</b>: Imagens do sistema
 
@@ -51,16 +48,11 @@ Há também 4 pastas que seguem da seguinte forma:
 ## 💻 Configuração para Desenvolvimento
 
 
-* 0.0.2 - 02/10/2024
-    Planejamento geral do site
-imagens: Imagens do sistema
-src: Pasta que contém o código fonte.
+
 ## 🛠 Instalação
 ## 💻 Configuração para Desenvolvimento
 
-* 0.0.1 - 01/10/2024
-    Planejamento do projeto
-    
+
 
 
 
