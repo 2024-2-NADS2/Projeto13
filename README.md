@@ -6,7 +6,6 @@
 
 # Educação de qualidade a todos
 
-## Integrantes:Adriano Xu, Felipe Budoya
 ## Integrantes:<a href="https://www.">Adriano Xu</a>, <a href="https://www.">Felipe Budoya</a>
 
 ## Professores Orientadores: Aimar Lopes, Victor Rosetti,Eduardo Savino, Chico Escobar, José Buesso
