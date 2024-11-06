@@ -23,10 +23,6 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 ## 🛠 Instalação|<br>
 |-->documentos<br>
   &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
