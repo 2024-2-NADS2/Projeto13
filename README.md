@@ -1,71 +1,70 @@
-# FECAP - Fundação de Comércio Álvares Penteado
+# Getting Started with Create React App
 
-<p align="center">
-<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Educação de qualidade a todos
+## Available Scripts
 
-## Integrantes:<a href="https://www.">Adriano Xu</a>, <a href="https://www.">Felipe Budoya</a>
+In the project directory, you can run:
 
-## Professores Orientadores: [Aimar Lopes](https://www.linkedin.com/in/aimarlopes/?locale=pt_BR),[ Victor Rosetti](https://www.linkedin.com/in/victorbarq/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=br),[Eduardo Savino](https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/), [Chico Escobar](https://www.linkedin.com/in/francisco-escobar/),[ José Buesso](https://www.linkedin.com/in/jbuesso/?original_referer=https%3A%2F%2Fgithub%2Ecom%2F2024-2-NADS2%2FProjeto12%3Ftab%3Dreadme-ov-file&originalSubdomain=br)
+### `npm start`
 
-## Descrição
-![Imagem do WhatsApp de 2024-10-15 à(s) 09 36 19_78eab9ab](https://github.com/user-attachments/assets/5f584ffd-7aa3-4f73-b7e4-33e9413dfd75)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-https://www.figma.com/proto/0QRkcM22yclR4e7eZXGOsN/Untitled?node-id=1-4&t=Aaxz883ssRWDh6CJ-1
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir seus conhecimentos no mercado financeiro de forma prática e personalizada. Com uma curadoria de cursos que se adequam ao nível de expertise do usuário, disponibilizamos vídeos educativos e personalizados para facilitar a compreensão. Além disso, oferecemos recomendações de sites e recursos externos que ajudam a aprimorar habilidades específicas, tornando o processo de aprendizado mais acessível e eficaz para todos os níveis de conhecimento.
+### `npm test`
 
-## 🛠 Estrutura de pastas
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
--Raiz<br>
-|-->documentos<br>
-  &emsp;|-->Codigo ordenação de conteúdo<br>
-  &emsp;|-->Figma<br>
-  &emsp;|-->Modelagem de Software e arquitetura de sistemas<br>
+### `npm run build`
 
-|-->imagens<br>
-  &emsp;|-->Ícone para o site<br>
-|-->src<br>
-  &emsp;|-->
-  
-|readme.md<br>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-README.MD: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Há também 3 pastas que seguem da seguinte forma:
+### `npm run eject`
 
-documentos: Toda a documentação estará nesta pasta.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-imagens: Imagens do sistema
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-src: Pasta que contém o código fonte.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 🛠 Instalação
+## Learn More
 
-Pré-requisitos<br>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-1. **Node.js e npm**  
-   
-2. **SQLite**  
-   
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 💻 Configuração para Desenvolvimento
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## 📋 Licença/License
-[Educacao e qualidade a todos](https://github.com/2024-2-NADS2/Projeto13?tab=readme-ov-file#educa%C3%A7%C3%A3o-de-qualidade-a-todos) by FECAP, Adriano XU, Budoya is licensed under  <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## 🎓 Referências
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
