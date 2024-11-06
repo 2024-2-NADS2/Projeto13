@@ -1,6 +1,6 @@
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import Conteudo from './Conteudos.js';
+import Conteudo from './Conteudo.jsx'
 
 export default function Videopage() {
     return (

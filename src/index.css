@@ -108,14 +108,6 @@ button {
   padding: 10px;
 }
 
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
-
 .recursos-adicionais,
 .comentarios {
   background-color: #FF9800; 

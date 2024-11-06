@@ -1,7 +1,7 @@
 import React from 'react';
 import Titulo from './Titulo';
 import More from './More';
-import Conteudo from './Conteudos';
+import Conteudo from './Conteudo.jsx';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 
@@ -10,10 +10,14 @@ function Homepage() {
     <div>
       <Header />
       <Titulo />
-      <More />
-      <div style={{ display: "flex" }}>
+      <div class = ''>
+        <h1></h1>
+      </div>
+      
+      <div style={{ display: "flex" }}> 
         <Conteudo />
       </div>
+      <More />
       <Footer />
     </div>
   );

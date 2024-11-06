@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import Homepage from './Homepage.js';
-import Login from './Login.js';
-import Cadastro from './Cadastro.js';
-import Sobre from './Sobre.js';
-import Videopage from './Videopage.js';
+import Homepage from './Homepage.jsx';
+import Login from './Login.jsx';
+import Cadastro from './Cadastro.jsx';
+import Sobre from './Sobre.jsx';
+import Videopage from './Videopage.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
