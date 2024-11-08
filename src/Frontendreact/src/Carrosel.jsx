@@ -13,6 +13,7 @@ export default function Carrosel(){
                 <div className="curso">Curso 6</div>
                 <div className="curso">Curso 7</div>
               </div>
+              
             </div>
             <button className="prev" onClick={() => moveSlide(-1)}>&#10094;</button>
             <button className="next" onClick={() => moveSlide(1)}>&#10095;</button>
