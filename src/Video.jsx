@@ -1,7 +1,9 @@
-export default function Video({ titulo, canal }) {
+import React from 'react';
+
+export default function Video({ titulo, canal, thumbnail }) {
     return (
         <div className="video">
-            <img src="https://via.placeholder.com/250x140" alt="Miniatura do Vídeo" />
+            <img src={thumbnail} alt={`Miniatura de ${titulo}`} />
             <div className="detalhes-video">
                 <div className="titulo-video">{titulo}</div>
                 <div className="canal">{canal}</div>
