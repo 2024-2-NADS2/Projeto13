@@ -1,22 +1,46 @@
-import React from 'react';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Conteudo from './Conteudo.jsx';
+import React, { useState, useEffect } from 'react';
+import Video from './Video';
+import { searchVideos } from './VideoList';
 
-export default function Videopage() {
+export default function VideoPage() {
+    const [videos, setVideos] = useState([]);
+    const [query, setQuery] = useState('Como investir ações imobiliarias');
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
+
+    useEffect(() => {
+        const fetchVideos = async () => {
+            setLoading(true);
+            try {
+                const results = await searchVideos(query);
+                setVideos(results);
+            } catch (err) {
+                setError('Erro ao carregar vídeos.');
+                console.error(err);
+            } finally {
+                setLoading(false);
+            }
+        };
+        fetchVideos();
+    }, [query]);
+
     return (
         <div>
-            <Header />
-            <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }}>
-                <Conteudo />
+            <h1>Vídeos Recomendados</h1>
+            {loading && <p>Carregando...</p>}
+            {error && <p>{error}</p>}
+            
+            <div className="video-list">
+                {videos.map((video) => (
+                    <Video
+                        key={video.id.videoId}
+                        videoId={video.id.videoId}
+                        titulo={video.snippet.title}
+                        canal={video.snippet.channelTitle}
+                        thumbnail={video.snippet.thumbnails.medium.url}
+                    />
+                ))}
             </div>
-            <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }}>
-                <Conteudo />
-            </div>
-            <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-around" }}>
-                <Conteudo />
-            </div>
-            <Footer />
         </div>
     );
 }

@@ -9,10 +9,10 @@ const videosDestacados = [
         thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg'
     },
     {
-        id: 'aBcD1EfGhI2',
-        titulo: 'Título do Vídeo Exemplo 2',
-        canal: 'Canal Exemplo 2',
-        thumbnail: 'https://img.youtube.com/vi/aBcD1EfGhI2/mqdefault.jpg'
+        id: 'Q6x0xnI0uCg',
+        titulo: 'AULA COMPLETA para INICIANTES que NÃO SABEM POR ONDE COMEÇAR a INVESTIR',
+        canal: 'Primo Pobre',
+        thumbnail: 'https://img.youtube.com/vi/Q6x0xnI0uCg/mqdefault.jpg'
     },
     {
         id: '3EfGhI4JkLm',
@@ -35,6 +35,7 @@ export default function Conteudo() {
                 {videosDestacados.map((video) => (
                     <Video
                         key={video.id}
+                        videoId={video.id} // Adicionado para passar o ID corretamente
                         titulo={video.titulo}
                         canal={video.canal}
                         thumbnail={video.thumbnail}
