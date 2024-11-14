@@ -13,7 +13,6 @@ function Homepage() {
       <div class = ''>
         <h1>Veja por onde comecar aqui</h1>
       </div>
-      
       <div style={{ display: "flex" }}> 
         <Conteudo />
       </div>

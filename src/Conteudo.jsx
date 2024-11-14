@@ -3,10 +3,10 @@ import Video from './Video.jsx';
 
 const videosDestacados = [
     {
-        id: 'dQw4w9WgXcQ',
-        titulo: 'Título do Vídeo Exemplo 1',
-        canal: 'Canal Exemplo 1',
-        thumbnail: 'https://img.youtube.com/vi/dQw4w9WgXcQ/mqdefault.jpg'
+        id: '4e5gqy4IEvM',
+        titulo: 'Ganhar com a Queda das Taxas de Juro? O Meu Investimento no ETF DTLA!',
+        canal: 'Edge Over Hedge',
+        thumbnail: 'https://img.youtube.com/vi/4e5gqy4IEvM/mqdefault.jpg'
     },
     {
         id: 'Q6x0xnI0uCg',
@@ -15,16 +15,22 @@ const videosDestacados = [
         thumbnail: 'https://img.youtube.com/vi/Q6x0xnI0uCg/mqdefault.jpg'
     },
     {
-        id: '3EfGhI4JkLm',
-        titulo: 'Título do Vídeo Exemplo 3',
-        canal: 'Canal Exemplo 3',
-        thumbnail: 'https://img.youtube.com/vi/3EfGhI4JkLm/mqdefault.jpg'
+        id: 'RyXbPF0Dqo0',
+        titulo: '3 INVESTIMENTOS PARA INICIANTES || FAVELADO INVESTIDOR',
+        canal: 'FAVELADO INVESTIDOR',
+        thumbnail: 'https://img.youtube.com/vi/RyXbPF0Dqo0/mqdefault.jpg'
     },
     {
-        id: '4JkLmNoPqRs',
-        titulo: 'Título do Vídeo Exemplo 4',
-        canal: 'Canal Exemplo 4',
-        thumbnail: 'https://img.youtube.com/vi/4JkLmNoPqRs/mqdefault.jpg'
+        id: 'JpFPMdsSJbg',
+        titulo: 'OS 10 ETFS PREFERIDOS DOS BRASILEIROS AO INVESTIR NOS ESTADOS UNIDOS',
+        canal: 'Papo de Bolsa',
+        thumbnail: 'https://img.youtube.com/vi/JpFPMdsSJbg/mqdefault.jpg'
+    },
+    {
+        id: 'a6Bh_m6fIK0',
+        titulo: 'Como MUDEI a MINHA VIDA FINANCEIRA em 30 dias com apenas 1 HÁBITO',
+        canal: 'Ela investe',
+        thumbnail: 'https://img.youtube.com/vi/a6Bh_m6fIK0/mqdefault.jpg'
     }
 ];
 

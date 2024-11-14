@@ -7,7 +7,7 @@ import Login from './Login.jsx';
 import Cadastro from './Cadastro.jsx';
 import Sobre from './Sobre.jsx';
 import Videopage from './Videopage.jsx';
-
+import Envioform from './Envioform.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -18,6 +18,7 @@ root.render(
         <Route path="/Cadastro" element={<Cadastro />} />
         <Route path="/Sobre" element={<Sobre />} />
         <Route path="/Videopage" element={<Videopage />} />
+        <Route path='/Envioform' element={<Envioform />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -4,7 +4,7 @@ import { searchVideos } from './VideoList';
 
 export default function VideoPage() {
     const [videos, setVideos] = useState([]);
-    const [query, setQuery] = useState('Como investir ações imobiliarias');
+    const [query, setQuery] = useState('Como investir em ações imobiliarias');
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
 

@@ -1,1 +1,3 @@
 chave da api do youtubev3: AIzaSyDUX5L9Ngl44p0n7UdPUSdldQkK0AaWHfg
+
+usar dotenv ao final de producao!!!!

@@ -3,7 +3,6 @@ import Video from './Video';
 
 const API_KEY = 'AIzaSyDUX5L9Ngl44p0n7UdPUSdldQkK0AaWHfg';
 
-// Função para buscar vídeos da API do YouTube
 export const searchVideos = async (searchQuery) => {
     const response = await fetch(
         `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&type=video&q=${encodeURIComponent(searchQuery)}&key=${API_KEY}`
