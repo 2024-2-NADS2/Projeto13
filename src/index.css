@@ -535,3 +535,208 @@ footer {
       flex: 1 1 100%;
   }
 }
+/*video page*/
+
+/*pagina de envio de email*/
+
+/* Container principal */
+.email-form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 20px;
+  border: 2px solid #1E3A6E;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Título do formulário */
+.email-form-title {
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #1E3A6E;
+}
+
+/* Estilos do formulário */
+.email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Grupo de campos do formulário */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Rótulos */
+.form-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #1E3A6E;
+}
+
+/* Estilos consistentes para select e textarea */
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #1E3A6E;
+  border-radius: 5px;
+  background-color: white;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: #FF9800;
+}
+
+.form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+/* Ajustes para o textarea */
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+  width: 95%;
+}
+
+/* Botão de envio */
+.form-button {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #FF9800;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #e08700;
+}
+
+/* Mensagens de status */
+.status-message {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+/* Mensagem de sucesso */
+.success {
+  background-color: #d4edda;
+  color: #1E3A6E;
+  border: 1px solid #c3e6cb;
+}
+
+/* Mensagem de erro */
+.error {
+  background-color: #f8d7da;
+  color: #cf2d2d;
+  border: 1px solid #f5c6cb;
+}
+
+/* Media Queries para responsividade */
+
+/* Para telas menores que 768px (celulares e tablets pequenos) */
+@media screen and (max-width: 768px) {
+  .email-form-container {
+    padding: 15px;
+    max-width: 100%; /* Faz o formulário ocupar toda a largura disponível */
+    margin: 20px auto;
+  }
+
+  .email-form-title {
+    font-size: 22px; /* Reduz o tamanho do título */
+  }
+
+  .form-input,
+  .form-select,
+  .form-textarea {
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+    padding: 10px; /* Diminui o padding */
+  }
+
+  .form-button {
+    font-size: 16px; /* Ajusta o tamanho da fonte do botão */
+    padding: 10px; /* Diminui o padding */
+  }
+
+  .status-message {
+    font-size: 14px; /* Ajusta o tamanho da fonte das mensagens */
+  }
+}
+
+/* Para telas entre 768px e 1024px (tablets grandes e dispositivos médios) */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .email-form-container {
+    max-width: 600px; /* Aumenta o tamanho do formulário para telas médias */
+    padding: 20px;
+  }
+
+  .email-form-title {
+    font-size: 24px; /* Ajusta o título para telas médias */
+  }
+
+  .form-input,
+  .form-select,
+  .form-textarea {
+    font-size: 15px; /* Ajusta o tamanho da fonte */
+    padding: 11px; /* Ajusta o padding */
+  }
+
+  .form-button {
+    font-size: 17px; /* Ajusta o tamanho do botão */
+    padding: 11px; /* Ajusta o padding do botão */
+  }
+
+  .status-message {
+    font-size: 15px; /* Ajusta o tamanho da fonte das mensagens */
+  }
+}
+
+/* Para telas grandes de 1440px ou mais (monitores padrão) */
+@media screen and (min-width: 1440px) {
+  .email-form-container {
+    max-width: 500px; /* Mantém o tamanho máximo padrão para monitores maiores */
+    padding: 20px;
+  }
+
+  .email-form-title {
+    font-size: 26px; /* Tamanho original do título */
+  }
+
+  .form-input,
+  .form-select,
+  .form-textarea {
+    font-size: 16px; /* Tamanho original da fonte */
+    padding: 12px; /* Tamanho original do padding */
+  }
+
+  .form-button {
+    font-size: 18px; /* Tamanho original do botão */
+    padding: 12px; /* Tamanho original do botão */
+  }
+
+  .status-message {
+    font-size: 16px; /* Tamanho original da fonte das mensagens */
+  }
+}

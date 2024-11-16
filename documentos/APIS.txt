@@ -2,5 +2,7 @@ chave da api do youtubev3: AIzaSyDUX5L9Ngl44p0n7UdPUSdldQkK0AaWHfg
 
 usar dotenv ao final de producao!!!!
 
-senha email js: x4Ru857ZGU 
+senha email js: x4Ru857ZGU
+api chave:iCM_T1brUFzFbEwLM 
 service id: service_q3265j5
+templete: template_f7068hm
