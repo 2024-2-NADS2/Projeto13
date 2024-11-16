@@ -101,7 +101,6 @@ nav a {
 button {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
   background-color: rgba(255, 255, 255, 0.7);
   border: none;
   cursor: pointer;
@@ -361,6 +360,7 @@ button {
 
 .video {
   width: 250px;
+  height: 250px;
   background-color: #ffffff;
   border-radius: 4px;
   overflow: hidden;
@@ -387,6 +387,7 @@ button {
 }
 
 /*Videos*/
+
 footer {
   background-color:#1E3A6E;
   color: white;
@@ -401,6 +402,136 @@ footer {
   width: 50px;
   height:100%;
 }
-/*videos e mais*/
-/* aprimorar dps */
-/*videos e mais*/
+/*videopage*/
+/* Estilos gerais da página */
+.video-page {
+  padding: 20px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.video-page-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #1E3A6E;
+  border-bottom: 2px solid #FF9800;
+  padding-bottom: 10px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 12px;
+  font-size: 1rem;
+  width: 300px;
+  border: 2px solid #1E3A6E;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #FF9800;
+  outline: none;
+}
+
+.search-button {
+  padding: 12px 20px;
+  background-color: #cf2d2d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-button:hover {
+  background-color: #FF9800;
+  transform: translateY(-3px);
+}
+
+.loading-message,
+.error-message,
+.no-videos {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #cf2d2d;
+}
+
+/* Estilos para a lista de vídeos */
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Estilos para cada vídeo */
+.video-item {
+  flex: 1 1 18%;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 15px;
+}
+
+.video-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.video-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #1E3A6E;
+}
+
+.video-title {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #1E3A6E;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.video-channel {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Responsividade */
+@media (max-width: 1440px) {
+  .video-item {
+      flex: 1 1 30%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .video-item {
+      flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-item {
+      flex: 1 1 100%;
+  }
+}

@@ -41,7 +41,7 @@ export default function Conteudo() {
                 {videosDestacados.map((video) => (
                     <Video
                         key={video.id}
-                        videoId={video.id} // Adicionado para passar o ID corretamente
+                        videoId={video.id} 
                         titulo={video.titulo}
                         canal={video.canal}
                         thumbnail={video.thumbnail}
