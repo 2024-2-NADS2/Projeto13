@@ -65,6 +65,7 @@ Há também 3 pastas que seguem da seguinte forma:
   <b>jsonwebtoken</br>
   <b>bcryptjs</br>
   <b>JWT</br>
+  
 2-Frontend:
 
   <b>npm install</br>
