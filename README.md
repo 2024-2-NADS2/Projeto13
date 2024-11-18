@@ -51,19 +51,19 @@ Há também 3 pastas que seguem da seguinte forma:
 
 ## 💻 Configuração para Desenvolvimento
 1-Backend:
-  <b>npm install
-  <b>express
-  <b>sqlite3
-  <b>cors
-  <b>body-parser
-  <b>jsonwebtoken
-  <b>bcryptjs
-  <b>JWT
+  <b>npm install</br>
+  <b>express</br>
+  <b>sqlite3</br>
+  <b>cors</br>
+  <b>body-parser</br>
+  <b>jsonwebtoken</br>
+  <b>bcryptjs</br>
+  <b>JWT</br>
 2-Frontend:
-  <b>npm install
-  <b>react-router-dom
-  <b>axios (ou fetch)
-  <b>react-hook-form
+  <b>npm install</br>
+  <b>react-router-dom</br>
+  <b>axios (ou fetch)</br>
+  <b>react-hook-form</br>
 
 ## 📋 Licença/License
 
