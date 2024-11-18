@@ -20,7 +20,10 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 
 
 
-## 🛠 Instalação|<br>
+## 🛠 Estrutura de pastas
+
+-Raiz
+
 |-->documentos<br>
   &emsp;|-->Entrega 1<br>
   &emsp;|-->Entrega 2<br>
