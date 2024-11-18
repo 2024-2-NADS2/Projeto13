@@ -54,6 +54,7 @@ Há também 3 pastas que seguem da seguinte forma:
   <b>Plataforma que rode react(Vscode, codesandbox , etc...)</b>
   
 -Instalar as dependências para o sistema
+
 1-Backend:
 
   <b>npm install</br>
