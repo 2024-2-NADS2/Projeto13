@@ -13,7 +13,7 @@
 ## Descrição
 ![Imagem do WhatsApp de 2024-10-15 à(s) 09 36 19_78eab9ab](https://github.com/user-attachments/assets/5f584ffd-7aa3-4f73-b7e4-33e9413dfd75)
 
-https://www.figma.com/proto/0QRkcM22yclR4e7eZXGOsN/Untitled?node-id=1-4&t=Aaxz883ssRWDh6CJ-1
+Figma do planejamento do front-end do nosso projeto:https://www.figma.com/proto/0QRkcM22yclR4e7eZXGOsN/Untitled?node-id=1-4&t=Aaxz883ssRWDh6CJ-1
 
 Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir seus conhecimentos no mercado financeiro de forma prática e personalizada. Com uma curadoria de cursos que se adequam ao nível de expertise do usuário, disponibilizamos vídeos educativos e personalizados para facilitar a compreensão. Além disso, oferecemos recomendações de sites e recursos externos que ajudam a aprimorar habilidades específicas, tornando o processo de aprendizado mais acessível e eficaz para todos os níveis de conhecimento.
 |readme.md<br>
