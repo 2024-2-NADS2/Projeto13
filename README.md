@@ -22,7 +22,10 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
 
 ## 🛠 Instalação|<br>
 |-->documentos<br>
-  &emsp;|Documentação.docx<br>
+  &emsp;|-->Entrega 1<br>
+  &emsp;|-->Entrega 2<br>
+  &emsp;|-->Entrega 3<br>
+  &emsp;|-->Entrega 4<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
