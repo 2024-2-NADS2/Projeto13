@@ -29,7 +29,7 @@ Nosso site oferece uma plataforma de aprendizado dedicada a quem deseja expandir
   &emsp;|-->Frontend<br>
 |readme.md<br>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+A pasta raiz contem arquivos que devem ser alterados:
 
 <b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
@@ -65,6 +65,7 @@ Há também 3 pastas que seguem da seguinte forma:
   <b>jsonwebtoken</br>
   <b>bcryptjs</br>
   <b>JWT</br>
+  <b>nodemon</b>
   
 2-Frontend:
 
