@@ -50,7 +50,12 @@ Há também 3 pastas que seguem da seguinte forma:
 
 
 ## 💻 Configuração para Desenvolvimento
+
+  <b>Plataforma que rode react(Vscode, codesandbox , etc...)</b>
+  
+-Instalar as dependências para o sistema
 1-Backend:
+
   <b>npm install</br>
   <b>express</br>
   <b>sqlite3</br>
@@ -60,6 +65,7 @@ Há também 3 pastas que seguem da seguinte forma:
   <b>bcryptjs</br>
   <b>JWT</br>
 2-Frontend:
+
   <b>npm install</br>
   <b>react-router-dom</br>
   <b>axios (ou fetch)</br>
