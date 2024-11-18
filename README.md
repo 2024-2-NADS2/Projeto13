@@ -46,24 +46,24 @@ Há também 3 pastas que seguem da seguinte forma:
 
 
 ## 🛠 Instalação
-
+<b>RHTML: Não há instalação! Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 
 ## 💻 Configuração para Desenvolvimento
 1-Backend:
-  npm install
-  express
-  sqlite3
-  cors
-  body-parser
-  jsonwebtoken
-  bcryptjs
-  JWT
+  <b>npm install
+  <b>express
+  <b>sqlite3
+  <b>cors
+  <b>body-parser
+  <b>jsonwebtoken
+  <b>bcryptjs
+  <b>JWT
 2-Frontend:
-  npm install
-  react-router-dom
-  axios (ou fetch)
-  react-hook-form
+  <b>npm install
+  <b>react-router-dom
+  <b>axios (ou fetch)
+  <b>react-hook-form
 
 ## 📋 Licença/License
 
