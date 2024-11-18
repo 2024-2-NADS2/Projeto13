@@ -41,15 +41,29 @@ Há também 3 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 💻 Configuração para Desenvolvimento
+
 
 
 
 ## 🛠 Instalação
+
+
+
 ## 💻 Configuração para Desenvolvimento
-
-
-
+1-Backend:
+  npm install
+  express
+  sqlite3
+  cors
+  body-parser
+  jsonwebtoken
+  bcryptjs
+  JWT
+2-Frontend:
+  npm install
+  react-router-dom
+  axios (ou fetch)
+  react-hook-form
 
 ## 📋 Licença/License
 
