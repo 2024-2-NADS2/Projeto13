@@ -17,7 +17,7 @@ export default function Header() {
                         <li><Link to="/videopage">Videos</Link></li>
                     </ul>
                 </nav>
-                <Link to="/Login" className="login-button">Login</Link> {/* Botão de Login */}
+                <Link to="/Login" className="login-button">Login</Link> 
             </header>
         </div>
     );

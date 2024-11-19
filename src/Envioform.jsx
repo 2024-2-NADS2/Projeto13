@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Footer from './Components/Footer.jsx'
+import Header from './Components/Header.jsx'
 
 function EmailForm() {
   const [email, setEmail] = useState('budasfecap@gmail.com');
@@ -35,7 +37,9 @@ function EmailForm() {
       });
   };
 
-  return (
+  return ( 
+    <div>
+    <Header />
     <div className="email-form-container">
       <h2 className="email-form-title">Envie uma mensagem</h2>
       <form className="email-form" onSubmit={handleSendEmail}>
@@ -67,6 +71,8 @@ function EmailForm() {
         <button type="submit" className="form-button">Enviar</button>
       </form>
       {status && <p className={`status-message ${status.includes('sucesso') ? 'success' : 'error'}`}>{status}</p>}
+    </div>
+    <Footer />
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Video from './Video';
 import { searchVideos } from './VideoList';
+import Footer from './Components/Footer.jsx'
+import Header from './Components/Header.jsx'
 
 export default function VideoPage() {
     const [videos, setVideos] = useState([]);
@@ -34,6 +36,8 @@ export default function VideoPage() {
     };
 
     return (
+        <div>
+            <Header />
         <div className="video-page">
             <h1 className="video-page-title">Vídeos Recomendados</h1>
 
@@ -67,6 +71,8 @@ export default function VideoPage() {
         <p className="no-videos">Nenhum vídeo encontrado.</p>
     )}
 </div>
+        </div>
+        <Footer />
         </div>
     );
 }
