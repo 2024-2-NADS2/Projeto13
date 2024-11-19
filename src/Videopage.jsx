@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Video from './Video';
 import { searchVideos } from './VideoList';
 import Footer from './Components/Footer.jsx'
-import Header from './Components/Header.jsx'
+import Header2 from './Components/Header2.jsx'
 
 export default function VideoPage() {
     const [videos, setVideos] = useState([]);
@@ -37,7 +37,7 @@ export default function VideoPage() {
 
     return (
         <div>
-            <Header />
+            <Header2 />
         <div className="video-page">
             <h1 className="video-page-title">Vídeos Recomendados</h1>
 

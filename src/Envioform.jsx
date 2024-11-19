@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Footer from './Components/Footer.jsx'
-import Header from './Components/Header.jsx'
+import Header4 from './Components/Header4.jsx'
 
 function EmailForm() {
   const [email, setEmail] = useState('budasfecap@gmail.com');
@@ -39,7 +39,7 @@ function EmailForm() {
 
   return ( 
     <div>
-    <Header />
+    <Header4 />
     <div className="email-form-container">
       <h2 className="email-form-title">Envie uma mensagem</h2>
       <form className="email-form" onSubmit={handleSendEmail}>

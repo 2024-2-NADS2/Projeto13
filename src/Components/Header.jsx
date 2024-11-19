@@ -12,9 +12,9 @@ export default function Header() {
                 <div className="logo"></div>
                 <nav>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
                         <li><Link to="/sobre">Sobre</Link></li>
                         <li><Link to="/videopage">Videos</Link></li>
+                        <li><Link to="/Envioform">Duvidas</Link></li>
                     </ul>
                 </nav>
                 <Link to="/Login" className="login-button">Login</Link> 

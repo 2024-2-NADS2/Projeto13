@@ -1,10 +1,10 @@
-import Header from './Components/Header';
+import Header3 from './Components/Header3';
 import Footer from './Components/Footer';
 
 export default function Sobre() {
     return (
         <div>
-            <Header />
+            <Header3 />
             <main className="corpo">
                 <div className="container">
                     {/* Seção de Criadores */}
