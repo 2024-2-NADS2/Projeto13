@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Video from './Video';
 import { searchVideos } from './VideoList';
-import Footer from './Components/Footer.jsx'
+import Footer from './Components/Footer.jsx';
 import Header2 from './Components/Header2.jsx'
 
 export default function VideoPage() {

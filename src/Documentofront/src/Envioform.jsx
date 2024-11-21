@@ -52,8 +52,8 @@ function EmailForm() {
             onChange={(e) => setEmail(e.target.value)}
           >
             <option value="budasfecap@gmail.com">Rafael Budoya</option>
-            <option value="email2@example.com">drico</option>
-            <option value="email3@example.com">fecap talvez</option>
+            <option value="adriano.hui@fecap.edu.br">Adriano xu ming hui</option>
+            <option value="budoyya@gmail.com">e-mail do grupo</option>
           </select>
         </div>
 

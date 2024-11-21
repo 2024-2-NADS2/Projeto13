@@ -7,57 +7,55 @@ export default function Sobre() {
             <Header3 />
             <main className="corpo">
                 <div className="container">
-                    {/* Seção de Criadores */}
                     <section className="secao">
                         <h2 className="titulo">Conheça os Criadores</h2>
                         <p className="paragrafo">
-                            Nós somos <strong>---</strong> e <strong>----</strong>, desenvolvedores web com experiência na criação de plataformas digitais.
+                            Nós somos <strong>Rafael Budoya</strong> e <strong>Adriano xu ming hui</strong>, desenvolvedores web com experiência na criação de plataformas digitais.
                             Nosso objetivo é facilitar o aprendizado sobre investimentos, oferecendo uma interface intuitiva e recursos acessíveis
                             para todos os níveis de conhecimento financeiro.
                         </p>
                         <ul className="lista-criadores">
                             <li className="item-criador">
-                                <img className="foto-criador" src="criador1.jpg" alt="Criador 1" />
+                                <img className="foto-criador" src="img/budas.jpeg" alt="Criador 1" />
                                 <div>
-                                    <strong className="destaque">Criador 1</strong>
-                                    <p>Descrição sobre o Criador 1 com mais detalhes sobre suas habilidades e contribuições para o projeto.</p>
+                                    <strong className="destaque">Rafael Budoya</strong>
+                                    <p>Sou desenvolvedor web full-stack, com experiência em criação de interfaces e integração 
+                                        de sistemas. Neste projeto, fui responsável pelo desenvolvimento do front-end 
+                                        e pela implementação de serviços de APIS, buscando sempre entregar uma plataforma intuitiva. 
+                                        Adoro transformar ideias em soluções digitais!
+</p>
                                 </div>
                             </li>
                             <li className="item-criador">
                                 <img className="foto-criador" src="criador2.jpg" alt="Criador 2" />
                                 <div>
-                                    <strong className="destaque">Criador 2</strong>
-                                    <p>Descrição sobre o Criador 2 destacando suas competências e motivações para o desenvolvimento do projeto.</p>
+                                    <strong className="destaque">Adriano xu ming hui</strong>
+                                    <p>Sou desenvolvedor web especializado em back-end e banco de dados. 
+                                        No desenvolvimento desta plataforma, fui responsável por criar e gerenciar as APIs,
+                                         além de estruturar o banco de dados para garantir o desempenho e a segurança do sistema.
+                                          Meu objetivo é sempre construir soluções robustas e eficientes para transformar 
+                                          ideias em realidade.
+</p>
                                 </div>
                             </li>
                         </ul>
                     </section>
 
-                    {/* Seção de Doações */}
                     <section className="secao apoio">
                         <h2 className="titulo">Apoie nossa plataforma</h2>
                         <p className="paragrafo">
-                            A <strong>-------</strong> é um projeto dedicado a oferecer educação acessível sobre investimentos.
+                            A <strong>APT "Aulas Para Todos</strong> é um projeto dedicado a oferecer educação acessível sobre investimentos.
                             Para continuar melhorando nossos cursos e recursos, contamos com o apoio dos usuários. 
                             Se você acredita na importância de democratizar o conhecimento financeiro, considere fazer uma doação.
                         </p>
                         <p className="campo-atencao">
                             Sua contribuição nos ajuda a expandir nossas ofertas e atingir mais pessoas interessadas em aprender sobre investimentos.
-                            Toda ajuda é bem-vinda!
+                            Toda ajuda é bem-vinda! caso sinta se avontadade  nos envie uma mensagem em nossos respectivos e-mails a seguir
                         </p>
                         <div className="botoes-doacao">
-                            <button className="botao-doacao">Doar via PayPal</button>
-                            <button className="botao-doacao">Doar via PicPay</button>
-                        </div>
-                    </section>
+                            <p>budoyya@gmail</p>
+                            <p>adriano.hui@fecap.edu.br</p>
 
-                    {/* Seção de Imagens */}
-                    <section className="secao imagens">
-                        <div>
-                            <img className="imagem" src="imagem1.jpg" alt="Ilustração do Projeto" />
-                        </div>
-                        <div>
-                            <img className="imagem" src="imagem2.jpg" alt="Visão do Sistema" />
                         </div>
                     </section>
                 </div>

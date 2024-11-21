@@ -2,8 +2,8 @@ import React from 'react';
 import Titulo from './Titulo';
 import More from './More';
 import Conteudo from './Conteudo.jsx';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
+import Header from './Components/Header.jsx';
+import Footer from './Components/Footer.jsx';
 
 function Homepage() {
   return (

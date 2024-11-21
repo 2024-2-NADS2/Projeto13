@@ -1,6 +1,5 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import Header from './Components/Header';
 import Footer from './Components/Footer';
 
 export default function Login() {
@@ -12,7 +11,6 @@ export default function Login() {
 
     return (
         <div>
-            <Header />
             <div className="body-container">
                 <div className="login-container">
                     <h2 className="login-title">Login</h2>
